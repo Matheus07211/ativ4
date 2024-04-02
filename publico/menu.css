@@ -1,0 +1,24 @@
+.event-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.event {
+    width: 500px;
+    border: 1px solid #4ec571;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #6df094;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+body{
+    background-color: rgb(241, 227, 227);
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+  }

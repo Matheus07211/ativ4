@@ -11,6 +11,15 @@
         <div class="container w-60 border p-5">
             <h1>Cadastro de Eventos</h1>
             <form id="formEvento" method="POST" action="#" class="row g-3 needs-validation" novalidate>
+                <div class="row mt-2">
+                    <div class="col-md-2">
+                        <label for="codigo" class="form-label">codigo </label>
+                        <input type="text" class="form-control" id="codigo" name="codigo" value="" required disabled>
+                        <div class="invalid-feedback">
+                        Por favor, informe o codigo!
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-4">
                     <label for="nome" class="form-label">Nome do evento:</label>
                     <input type="text" class="form-control" id="nome" name="nome" value="" required>
@@ -67,7 +76,7 @@
 
         </div>
         </br>
-        <div id="espacoTabela">
+        <div class = 'container' id="espacoTabela">
             
         </div>
     </body>

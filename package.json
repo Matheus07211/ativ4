@@ -1,7 +1,7 @@
 {
-  "name": "ativ4",
+  "name": "ativ4back",
   "version": "1.0.0",
-  "description": "Atividade 4 de Programacao para Internet",
+  "description": "Atividade 4 de Programacao para Internet - Backend",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/Matheus07211/ativ4.git"
   },
   "keywords": [
-    "fullstack"
+    "Backend"
   ],
   "author": "Matheus Lima",
   "license": "ISC",
@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/Matheus07211/ativ4#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2",
-    "express-session": "^1.18.0",
-    "node": "^18.20.0",
-    "path": "^0.12.7",
-    "session": "^0.1.0"
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.3",
+    "node": "^18.20.0"
   }
 }
